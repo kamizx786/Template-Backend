@@ -24,7 +24,7 @@ app.use(morgan("dev"));
 //resolve Frontend and Backend
 app.use(
   cors({
-    origin: ["*"],
+    origin: ["http://localhost:3002"],
   })
 );
 //Request Limit
